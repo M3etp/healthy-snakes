@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.body {
+    background: url("../assets/bgi.png");
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#board {
+    background: linear-gradient(rgb(134, 225, 134), rgb(222, 222, 121));
+    width: 90vmin;
+    height: 92vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(18, 1fr);
+
+}
+
+.food {
+    background: url("../assets/food.png");
+    background-size: 150%;
+   
+    border: 1px white;
+
+}
+
+
+.junkfood {
+    background: url("../assets/pizza.png");
+    background-size: cover;
+   
+    border: 1px white;
+
+}
+
+.head {
+    background: linear-gradient(red, yellow);
+    border: 2px solid white;
+    border-radius: 10px;
+    transform: scale(1.10);
+
+}
+
+.snake {
+    background-color: rgb(197, 27, 197);
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+#score{
+    position: absolute;
+    top: 30px;
+    right: 200px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#hiscorebox{
+    position: absolute;
+    top: 90px;
+    right: 120px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
