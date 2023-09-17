@@ -18,4 +18,4 @@ To play the game, simply download the repository and run the executable file on 
 Contributions to this project are welcome! If you find any issues or have any suggestions for improvement, feel free to open an issue or submit a pull request.
 
 ## Credits
-This game was developed by [your name].
+This game was developed by Meet Parmar.
